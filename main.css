@@ -1,0 +1,47 @@
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+}
+.row {
+   font-size: 0; 
+}
+.row1 .col1 {
+    display: inline-block;
+    width: 25%;
+    font-size: 14px;
+    padding-left: 20px;
+    /* padding: 0 10px; */
+    box-sizing: border-box;
+    background-color: aquamarine;
+    margin-bottom: 30px; 
+}
+.card img {
+    padding: 30px 0 55px  0;      
+}
+p {
+    font-family: 'Roboto', sans-serif; 
+    font-size: 14px;
+    font-weight: 600;
+    color: #333;
+    padding-left: 30px; 
+}
+.card p:last-child {
+    font-size: 18px;
+}
+.card {
+    border: 1px solid #e1e1e1;
+    /* height: 100%; */
+}
+
+/* Float method */
+
+.col2 {
+    padding-left: 20px;
+    width: 25%;
+    background-color: #0dc084;
+    float: left;
+}
+
+
+
+
